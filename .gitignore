@@ -1,0 +1,9 @@
+#function for odd or even number
+def oddeven(a):
+	if a%2==0 :
+		print("Even");
+	else:
+		print("Odd");
+	return a
+number=int(input("Enter your choice"))
+n=oddeven(number)
